@@ -1,4 +1,3 @@
-Yuumi Cosmetics 
 Este es el sistema de gestión de usuarios para Yuumi Cosmetics, desarrollado con Node.js, Express y MySQL.
 
 Shutterstock
@@ -42,13 +41,6 @@ npm install
 Configura las variables de entorno:
 Crea un archivo llamado .env en la raíz del proyecto y añade tus credenciales:
 
-Fragmento de código
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=tu_contraseña
-DB_DATABASE=yuumi_cosmetics
-DB_PORT=3306
-PORT=3000
 Ejecuta el servidor:
 
 Bash
@@ -74,3 +66,4 @@ Descripción: Actualiza los datos de un usuario existente.
 [DELETE] /api/users/delete
 
 Descripción: Elimina un usuario mediante su id_usuario.
+
